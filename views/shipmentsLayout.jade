@@ -1,0 +1,63 @@
+html
+  head
+    title Shipments
+  body
+    if Array.isArray(shipments) && shipments.length > 0
+        h1 Shipments List
+
+        table
+            thead
+                tr
+                th Shipment ID
+                th Nombre
+                th Address
+                th Calle
+                th Numero
+                th Ciudad
+                th Estado
+                th Pais
+                th CP
+                th Shipping Date
+            tbody
+                each shipment in shipments
+                    tr
+                        td= shipment.shipmentId
+                        td= shipment.Nombre
+                        td= shipment.Address
+                        td= shipment.Calle
+                        td= shipment.Numero
+                        td= shipment.Ciudad
+                        td= shipment.Estado
+                        td= shipment.Pais
+                        td= shipment.CP
+                        td= shipment.ShippingDate
+    else if shipments === undefined
+      h1 No hay envios
+    else
+        h1 Shipments List
+
+        table
+            thead
+                tr
+                th Shipment ID
+                th Nombre
+                th Address
+                th Calle
+                th Numero
+                th Ciudad
+                th Estado
+                th Pais
+                th CP
+                th Shipping Date
+            tbody
+                tr
+                    td= shipments.shipmentId
+                    td= shipments.Nombre
+                    td= shipments.Address
+                    td= shipments.Calle
+                    td= shipments.Numero
+                    td= shipments.Ciudad
+                    td= shipments.Estado
+                    td= shipments.Pais
+                    td= shipments.CP
+                    td= shipments.ShippingDate

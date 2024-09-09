@@ -1,0 +1,74 @@
+[
+    {
+        "shipmentId": 1,
+        "Nombre": "Juan",
+        "Address": "Calle #345",
+        "Calle": "Azul",
+        "Numero": "345",
+        "Ciudad": "Jalisco",
+        "Estado": "Guadalajara",
+        "Pais": "Mexico",
+        "CP": "66633",
+        "ShippingDate": "06/09/2024"
+    },
+    {
+        "shipmentId": 2,
+        "Nombre": "María",
+        "Address": "Avenida #123",
+        "Calle": "Granada",
+        "Numero": "123",
+        "Ciudad": "Madrid",
+        "Estado": "Madrid",
+        "Pais": "España",
+        "CP": "28001",
+        "ShippingDate": "15/07/2024"
+    },
+    {
+        "shipmentId": 3,
+        "Nombre": "John",
+        "Address": "Street #456",
+        "Calle": "Broadway",
+        "Numero": "456",
+        "Ciudad": "New York",
+        "Estado": "NY",
+        "Pais": "Estados Unidos",
+        "CP": "10001",
+        "ShippingDate": "20/02/2024"
+    },    
+    {
+        "shipmentId": 4,
+        "Nombre": "Yuki",
+        "Address": "4-5-6",
+        "Calle": "Shibuya",
+        "Numero": "4-5-6",
+        "Ciudad": "Tokyo",
+        "Estado": "Tokyo",
+        "Pais": "Japón",
+        "CP": "150-0002",
+        "ShippingDate": "10/11/2024"
+    },    
+    {
+        "shipmentId": 5,
+        "Nombre": "Ana",
+        "Address": "Rua #789",
+        "Calle": "Paulista",
+        "Numero": "789",
+        "Ciudad": "Sao Paulo",
+        "Estado": "SP",
+        "Pais": "Brasil",
+        "CP": "01310-100",
+        "ShippingDate": "25/04/2024"
+    },
+    {
+        "shipmentId": 6,
+        "Nombre": "Pierre",
+        "Address": "Boulevard #234",
+        "Calle": "Montmartre",
+        "Numero": "234",
+        "Ciudad": "París",
+        "Estado": "Île-de-France",
+        "Pais": "Francia",
+        "CP": "75018",
+        "ShippingDate": "05/06/2024"
+    }      
+]
