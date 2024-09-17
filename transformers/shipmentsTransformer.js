@@ -20,7 +20,7 @@ exports.calcularDiferenciaEnDias = (fechaFutura) => {
 
   exports.trasnformData = (filteredData) => {
     return filteredData.map(envio => {
-        const daysCount = this.calcularDiferenciaEnDias(envio.ShippingDate);
+        const daysCount = this.calcularDiferenciaEnDias(envio.shipping_date);
         return {...envio, deliveredInDays: daysCount}
     });
   } 

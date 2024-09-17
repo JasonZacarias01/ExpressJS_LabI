@@ -1,0 +1,72 @@
+[
+    {
+          "userId":1,
+          "name":"Peter",
+          "last_name":"Wallace",
+          "email":"pwallace@email.com",
+          "billing_address":{
+                "street":"Jackson Rd",
+                "number":"1405",
+                "city":"Nashville",
+                "state":"Tennessee",
+                "country":"United States",
+                "zip":"11111"
+          }
+    },
+    {
+          "userId":2,
+          "name":"Marcia",
+          "last_name":"Douglas",
+          "email":"marcia.douglas@email.com",
+          "billing_address":{
+                "street":"Timberwood Dr",
+                "number":"30",
+                "city":"Seatle",
+                "state":"Washington",
+                "country":"United States",
+                "zip":"27498"
+          }
+    },
+    {
+          "userId":3,
+          "name":"Carlos",
+          "last_name":"Gutierrez",
+          "email":"cgaguilar@email.com",
+          "billing_address":{
+                "street":"Simon Bolivar",
+                "number":"291",
+                "city":"Aguascalientes",
+                "state":"Aguascalientes",
+                "country":"Mexico",
+                "zip":"93800"
+          }
+    },      
+    {
+          "userId":4,
+          "name":"Rachel",
+          "last_name":"Liang",
+          "email":"liang@email.com",
+          "billing_address":{
+                "street":"Redcastle",
+                "number":"126",
+                "city":"Toronto",
+                "state":"Ontario",
+                "country":"Canada",
+                "zip":"10211"
+          }
+    },      
+    {
+          "userId":5,
+          "name":"Enrique",
+          "last_name":"Larios",
+          "email":"enlarios@email.com",
+          "billing_address":{
+                "street":"Insurgentes",
+                "number":"2062",
+                "city":"Merida",
+                "state":"Yucatan",
+                "country":"Mexico",
+                "zip":"30210"
+          }
+    }
+]

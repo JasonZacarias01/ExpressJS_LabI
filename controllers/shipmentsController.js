@@ -1,5 +1,5 @@
 const { trasnformData } = require('../transformers/shipmentsTransformer');
-const datos = require('../shipping.json');
+const datos = require('../data/shipments.json');
 
 exports.getAllShipments = (req, res, next) => {
   try {

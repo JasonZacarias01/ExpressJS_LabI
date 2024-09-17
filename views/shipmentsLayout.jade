@@ -9,29 +9,29 @@ html
             thead
                 tr
                 th Shipment ID
-                th Nombre
+                th UserId
                 th Address
-                th Calle
-                th Numero
-                th Ciudad
-                th Estado
-                th Pais
-                th CP
+                th City
+                th State
+                th Country
+                th Zip
                 th Shipping Date
+                th Estimated Arrival
+                th Status
                 th Delivered In
             tbody
                 each shipment in shipments
                     tr
                         td= shipment.shipmentId
-                        td= shipment.Nombre
-                        td= shipment.Address
-                        td= shipment.Calle
-                        td= shipment.Numero
-                        td= shipment.Ciudad
-                        td= shipment.Estado
-                        td= shipment.Pais
-                        td= shipment.CP
-                        td= shipment.ShippingDate
+                        td= shipment.userId
+                        td= shipment.shipping_address.address
+                        td= shipment.shipping_address.city
+                        td= shipment.shipping_address.state
+                        td= shipment.shipping_address.country
+                        td= shipment.shipping_address.zip
+                        td= shipment.shipping_date
+                        td= shipment.estimated_arrival
+                        td= shipment.status
                         td= shipment.deliveredInDays
     else
       h1 No hay envios

@@ -1,0 +1,86 @@
+[
+    {
+          "shipmentId": 1,
+          "userId": 5,
+          "shipping_address":{
+                "address": "Insurgentes #2026",
+                "city": "Merida",
+                "state": "Yuc",
+                "country": "MX",
+                "zip": "30210"
+          },
+          "shipping_date": "06/09/2024",
+          "estimated_arrival": "09/09/2024",
+          "status":"sent"
+    },
+    {
+          "shipmentId": 2,
+          "userId": 3,
+          "shipping_address":{
+                "address": "Rio Verde 41",
+                "city": "Aguascalientes",
+                "state": "Ags",
+                "country": "MX",
+                "zip": "93801"
+          },
+          "shipping_date": "02/09/2024",
+          "estimated_arrival": "08/09/2024",
+          "status":"delivered"
+    },
+    {
+          "shipmentId": 3,
+          "userId": 1,
+          "shipping_address":{
+                "address": "1405 Jackson Rd",
+                "city": "Nashville",
+                "state": "TN",
+                "country": "United States",
+                "zip": "11111"
+          }, 
+          "shipping_date": "06/09/2024",
+          "estimated_arrival": "09/09/2024",
+          "status":"preparing"
+    },
+    {
+          "shipmentId": 4,
+          "userId": 2,
+          "shipping_address":{
+                "address": "30 Timberwood Drive",
+                "city": "Seatle",
+                "state": "WA",
+                "country": "United States",
+                "zip": "27498"
+          }, 
+          "shipping_date": "07/09/2024",
+          "estimated_arrival": "09/09/2024",
+          "status":"cancelled"
+    },
+    {
+          "shipmentId": 5,
+          "userId": 4,
+          "shipping_address":{
+                "address": "126 Redcastle",
+                "city": "Toronto",
+                "state": "ON",
+                "country": "Canada",
+                "zip": "10211"
+          },
+          "shipping_date": "06/09/2024",
+          "estimated_arrival": "09/09/2024",
+          "status":"sent"
+    },
+    {
+          "shipmentId": 6,
+          "userId": 4,
+          "shipping_address":{
+                "address": "17 Westham Street",
+                "city": "London",
+                "state": "ON",
+                "country": "Canada",
+                "zip": "10230"
+          },
+          "shipping_date": "06/09/2024",
+          "estimated_arrival": "09/09/2024",
+          "status":"delivered"
+    }
+]
