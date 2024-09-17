@@ -9,7 +9,7 @@
         "Estado": "Guadalajara",
         "Pais": "Mexico",
         "CP": "66633",
-        "ShippingDate": "06/09/2024"
+        "ShippingDate": "15/09/2024"
     },
     {
         "shipmentId": 2,
@@ -21,7 +21,7 @@
         "Estado": "Madrid",
         "Pais": "España",
         "CP": "28001",
-        "ShippingDate": "15/07/2024"
+        "ShippingDate": "20/09/2024"
     },
     {
         "shipmentId": 3,
@@ -33,7 +33,7 @@
         "Estado": "NY",
         "Pais": "Estados Unidos",
         "CP": "10001",
-        "ShippingDate": "20/02/2024"
+        "ShippingDate": "30/09/2024"
     },    
     {
         "shipmentId": 4,
@@ -45,7 +45,7 @@
         "Estado": "Tokyo",
         "Pais": "Japón",
         "CP": "150-0002",
-        "ShippingDate": "10/11/2024"
+        "ShippingDate": "09/09/2024"
     },    
     {
         "shipmentId": 5,
@@ -57,7 +57,7 @@
         "Estado": "SP",
         "Pais": "Brasil",
         "CP": "01310-100",
-        "ShippingDate": "25/04/2024"
+        "ShippingDate": "05/09/2024"
     },
     {
         "shipmentId": 6,
@@ -69,6 +69,6 @@
         "Estado": "Île-de-France",
         "Pais": "Francia",
         "CP": "75018",
-        "ShippingDate": "05/06/2024"
+        "ShippingDate": "01/09/2024"
     }      
 ]
