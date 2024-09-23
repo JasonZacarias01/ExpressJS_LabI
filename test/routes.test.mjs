@@ -12,7 +12,7 @@ const userSchema = Joi.array().items(
     userId: Joi.number().integer().required(),
     name: Joi.string().required(),
     last_name: Joi.string().required(),
-    email: Joi.string().email().required(),
+    email: Joi.string().required(),
     billing_address: Joi.object({
       street: Joi.string().required(),
       number: Joi.string().required(),

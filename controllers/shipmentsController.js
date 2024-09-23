@@ -1,5 +1,6 @@
-const { trasnformData } = require('../transformers/shipmentsTransformer');
+const { trasnformData, findDifferences } = require('../transformers/shipmentsTransformer');
 const datos = require('../data/shipments.json');
+const users = require('../data/users.json');
 
 exports.getAllShipments = (req, res, next) => {
   try {
@@ -27,6 +28,16 @@ exports.getShipmentsById = (req, res, next) => {
         } else {
             res.json(transformedShipments);
         }
+        
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  exports.getDifferentAddress = (req, res, next) => {
+    try {
+      const differentData = findDifferences(datos, users)
+      res.json(differentData);
         
     } catch (error) {
       next(error);
